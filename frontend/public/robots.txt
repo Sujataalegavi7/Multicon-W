@@ -1,0 +1,14 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /search
+Allow: /papers/
+Allow: /uploads/
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /contributor
+Disallow: /contributor/*
+Disallow: /api/
+
+# Dynamic Sitemap endpoint containing all approved research papers
+Sitemap: /sitemap.xml
